@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String firstName = request.getParameter("firstName");
-
+		
 		String email = request.getParameter("email");
 		try {
 			Class.forName("org.postgresql.Driver");
