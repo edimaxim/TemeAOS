@@ -13,7 +13,7 @@ public class HelloPers {
 	
 	@GetMapping("/hello/{name}")
 	public String HelloWorld(@PathVariable("name") String name) {
-		return "Hi " + name;
+		return "Hello " + name;
 	}
 	
 	
